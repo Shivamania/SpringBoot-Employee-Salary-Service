@@ -20,6 +20,20 @@ Employee Salary Service is a web application that allows users to calculate diff
 - Use the forms on the homepage to calculate different types of salaries
 - Use the "Calculate" button to get different types of salaries
 
+## Application Screenshots
+
+### Home Page
+![Home Page](screenshots/SBproject1.2.png)
+
+### Fixed Salary Calculation
+![Fixed Salary Calculation](screenshots/SBproject1.4.png)
+
+### Hourly Salary Calculation
+![Hourly Salary Calculation](screenshots/SBproject1.6.png)
+
+### Bonus Salary Calculation
+![Bonus Salary Calculation](screenshots/SBproject1.8.png)
+
 ## Annotations Used
 
 ### Spring Boot Annotations
