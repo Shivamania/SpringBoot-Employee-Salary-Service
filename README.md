@@ -23,7 +23,7 @@ Employee Salary Service is a web application that allows users to calculate diff
 ## Application Screenshots
 
 ### Home Page
-![Home Page](screenshots/SBproject1.2.png)
+![Home Page](Employee-Salary-Service/src/screenshots/SBproject1.2.png)
 
 ### Fixed Salary Calculation
 ![Fixed Salary Calculation](screenshots/SBproject1.4.png)
