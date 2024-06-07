@@ -1,0 +1,92 @@
+<!--
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Result</h1>
+    <div id="result">
+        <p th:if="${salary}" th:text="'Calculated Salary: ₹' + ${salary}"></p>
+        <p th:if="${hourlySalary}" th:text="'Calculated Hourly Salary: ₹' + ${hourlySalary}"></p>
+    </div>
+</div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #030331;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #5a0d20;
+            font-size: 45px;
+            margin-top: 4px;
+            margin-left: 117px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 43px;
+            color: #052e3f;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Salary Detail </h1>
+    <div id="result">
+        <p th:if="${salary}" th:text="'Calculated Salary: ₹' + ${salary}"></p>
+        <p th:if="${hourlySalary}" th:text="'Calculated Hourly Salary: ₹' + ${hourlySalary}"></p>
+        <p th:if="${bonusSalary}" th:text="'Calculated Salary with Bonus: ₹' + ${bonusSalary}"></p>
+    </div>
+</div>
+</body>
+</html>
